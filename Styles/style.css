@@ -1,0 +1,141 @@
+.main {
+    width: 1376px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+.SerchBar {
+    width: 1024px;
+    height: 90px;
+    flex-shrink: 0;
+    padding-left: 84px;
+    padding-Top: 109px;
+
+}
+.Searchplace {
+    width: 858px;
+    height: 74px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: none;
+
+}
+.Button1 {
+    width: 130px;
+    height: 74px;
+    flex-shrink: 0;
+    background: #FA8905;
+    border: none;
+}
+.FillterItems {
+    display: flex;
+    justify-content: space-between; /* Adjust this based on your preference */
+    width: 1207px;
+    height: 90px;
+    flex-shrink: 0;
+    padding-left: 84px;
+    text-align: center; /* Center text horizontally */
+}
+
+.Fillter1 {
+    display: flex;
+    align-items: center; /* Center vertically */
+    width: 180px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding-top: 8px;
+    padding-left: 9px;
+    text-align: center; /* Center text horizontally */
+}
+
+.FillterBG {
+    width: 53px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #D9D9D9;
+    margin-right: 8px; /* Adjust spacing between image and text */
+}
+
+.FillterImg {
+    width: 53px;
+    height: 61px;
+    flex-shrink: 0;
+}
+
+.texyt {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}
+
+.Items {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly across the container */
+    width: 1207px;
+    height: auto; /* Auto height to accommodate variable content */
+    padding-top: 14px;
+    padding-left: 84px;
+}
+
+.Item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 212px;
+    height: 212px;
+    flex-shrink: 0;
+    background: #FFF;
+    padding-top: 5px; /* Adjust margin as needed */
+}
+
+.ItemBG {
+    width: 170px;
+    height: 137px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-bottom: 10px;
+}
+
+.FillterImg {
+    width: 100%;
+    height: 100%;
+}
+
+.Type {
+    text-align: center;
+}
+
+.Name,
+.Price {
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.Price {
+    color: #FA8905;
+}
+
+.Cart {
+    width: 544px;
+    height: 1080px;
+    background: #FFF;
+}
+.user {
+    width: 382px;
+    height: 90px;
+    flex-shrink: 0;
+    background: #121212;
+}
